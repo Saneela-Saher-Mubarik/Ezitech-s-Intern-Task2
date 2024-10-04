@@ -1,0 +1,563 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+}
+
+html,
+body {
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #fcfcfc;
+    height: auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.main {
+    background-color: #eafaf1;
+}
+
+header {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    transform: scale(1.3);
+    padding-bottom: 2rem;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    line-height: 1.5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #D6DAE5;
+}
+
+.input-group-2 {
+    background-color: #f4f4f4;
+    border: 1px solid #D6DAE5;
+    line-height: 1.5;
+    margin: -20px;
+    margin-top: 2rem;
+}
+
+.input-group-2 {
+    padding: 10px;
+}
+
+.input-group-2 ::placeholder {
+    text-align: right;
+}
+
+input:focus {
+    background-color: #eafaf1;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 85%;
+    line-height: 21px;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+}
+
+.input-group-2 label {
+
+    display: block;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 0.8em;
+    color: #464951;
+
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D6DAE5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input:hover {
+    border: 1px solid #6c95f5;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #464951;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-info {
+    margin: auto;
+}
+
+.pricing-info h2 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    color: #464951;
+    margin-top: 45px;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+
+
+.pricing-info p {
+    color: #83858A;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-bottom: 1px solid #D6DAE5;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+.pricing-info p {
+    color: #83858A;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-bottom: 1px solid #D6DAE5;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.pricing-info-p {
+    display: flex;
+}
+
+.pricing-info-p img {
+    width: 60%;
+    margin-top: -5px;
+    border: 1px solid #46484e5c;
+    border-radius: 50%;
+}
+
+.pricing-info-p p {
+    line-height: 1.15;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    border-bottom: none;
+}
+
+.developer-info p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 80%;
+    color: #464951;
+    line-height: 1.5;
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.base p {
+    color: #8B8B8B;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 80%;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+.need h3 {
+    line-height: 1.5;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    box-sizing: inherit;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-left: 50px;
+}
+
+.need p {
+    line-height: 1.5;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    margin-bottom: 1.25rem;
+    font-size: .875rem;
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.need a {
+    line-height: 1.5;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: transparent;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 1.125rem;
+    color: #46B3EE;
+    margin-left: 50px;
+}
+
+.cancel {
+    margin-top: 120px;
+}
+
+.cancel h3 {
+    margin-left: 50px;
+    color: #464951;
+}
+
+.cancel p {
+    line-height: 1.5;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    margin-bottom: 1.25rem;
+    font-size: .875rem;
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.email p {
+    line-height: 1.5;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    margin-bottom: 1.25rem;
+    font-size: .875rem;
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.billing-container {
+    border: 1px solid #D6DAE5;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.billing-info {
+    position: relative;
+}
+
+.billing-info h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #464951;
+    line-height: 1.5;
+}
+
+.billing-info h2 img {
+    margin-left: 10px;
+}
+
+.billing-info svg {
+    position: absolute;
+    width: 7%;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.billing-info p {
+    font-size: 14px;
+    font-size: .875rem;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.input-group ::placeholder {
+    margin-right: 140px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    font-family: sans-serif;
+}
+
+.signing-up p {
+    width: auto;
+    font-size: 26px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #464951;
+    line-height: 1.5;
+    margin-top: 30px;
+    text-align: left;
+}
+
+
+.signing-up a {
+    color: #062c27;
+    cursor: pointer;
+}
+
+.card-info input {
+    padding-left: 40px;
+}
+
+.billing-info div {
+
+    background: #fff;
+}
+
+.submit-btn {
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #1fe374;
+    color: #062c27;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+    transition: all .2s ease-in-out;
+    margin-bottom: 100px;
+    transition: 0.1s;
+}
+
+.submit-btn:hover {
+    transform: translate(2%, -7%);
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 14px;
+    font-size: .875rem;
+    color: #464951;
+    line-height: 1.5;
+
+}
+
+.terms a {
+    color: #46B3EE;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.terms label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.terms input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #080c16;
+    padding: 5px;
+}
+
+footer p {
+    font-size: 12px;
+    font-size: .75rem;
+    color: #83858a;
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 10px 120px;
+}
+
+footer a {
+    color: #83858a;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #9fa0a3;
+}
+
+@media (max-width: 1200px) {
+    .grid {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .pricing-info h2,
+    .billing-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .pricing-info p,
+    .billing-info p {
+        font-size: 1rem;
+    }
+
+    .logo {
+        transform: scale(1.1);
+    }
+
+    .form-container,
+    .billing-container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .grid {
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        transform: scale(1);
+        padding-bottom: 1rem;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .input-group-2 {
+        margin: 0;
+    }
+
+    .input-group-2 ::placeholder {
+        text-align: left;
+    }
+
+    .pricing-info h2 {
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+
+    .pricing-info p {
+        font-size: 1rem;
+        margin-left: 20px;
+        padding-left: 5px;
+    }
+
+    .billing-info h2 {
+        font-size: 1.25rem;
+        margin-left: 20px;
+    }
+
+    .billing-info p {
+        font-size: 0.875rem;
+        margin-left: 20px;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+        margin-right: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    footer p {
+        margin: 5px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .logo {
+        transform: scale(0.9);
+    }
+
+    .pricing-info h2,
+    .billing-info h2 {
+        font-size: 1.25rem;
+    }
+
+    .pricing-info p,
+    .billing-info p {
+        font-size: 0.875rem;
+    }
+
+    .input-group-2 {
+        padding: 5px;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        margin-bottom: 50px;
+    }
+
+    .terms {
+        font-size: 0.75rem;
+    }
+
+    footer p {
+        font-size: 0.625rem;
+        margin: 5px;
+    }
+}

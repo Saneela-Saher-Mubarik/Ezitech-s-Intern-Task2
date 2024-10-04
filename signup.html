@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <section class="main">
+        <header>
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="https://pulseapp.com/img/pulse-logo.svg" alt="Pulse Logo">
+                </a>
+            </div>
+            <p>Take control of your cash flow with the #1 cash flow software.</p>
+        </header>
+    </section>
+
+    <div class="grid">
+        <div class="grid-content-1">
+            <div class="container">
+                <div class="form-container">
+                    <form action="/submit" method="post">
+                        <div class="form-section">
+                            <div class="input-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="company-name">Company Name</label>
+                                <input type="text" id="company-name" name="company-name" required>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="password">Create a Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+
+                        <div class="input-group-2">
+                            <h3> <label for="site-address">Your Pulse Site Address</label> </h3>
+                            <small>Every Pulse account has its own unique web address where you'll log in. Remember to
+                                bookmark it!</small>
+                            <input type="text" id="site-address" name="site-address" placeholder=".pulseapp.com"
+                                required>
+                            <small>Letters and numbers only, no spaces.</small>
+                        </div>
+
+                        <div class="billing-info">
+                            <h2>Billing Information
+                                <img src="https://signup.pulseapp.com/assets/marketing/lock-53b4586a4fbaafc2dad528b4145feb31331bd138a19dd36a63c730691b6a30e2.png"
+                                    alt="">
+                            </h2>
+                            div
+                            <div class="billing-container">
+                                <div class="input-group">
+                                    <label for="card-name">Name on card</label>
+                                    <input type="text" id="card-name" name="card-name" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <label for="card-info">Credit or debit card </label>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#b3b8c1"
+                                            d="M512 80c8.8 0 16 7.2 16 16l0 32L48 128l0-32c0-8.8 7.2-16 16-16l448 0zm16 144l0 192c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-192 480 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0z" />
+                                    </svg>
+                                    <div class="card-info">
+
+                                        <input type="text" id="card-info" name="card-info" placeholder="Card number"
+                                            required>
+                                    </div>
+                                </div>
+                                <p>All data and transactions are securely stored and processed using industry standards.
+                                </p>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="signing-up">
+                    <p>You’re signing up for a free 30-day trial of the Plus plan. At the end of the trial on October
+                        11, we’ll charge you $59 a month to keep using Pulse, and you can <a href="#">cancel any
+                            time.</a></p>
+                </div>
+
+                <div class="terms">
+                    <label>
+                        <input type="checkbox" name="terms" required>
+                        I have read and agree to Pulse's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        I want to receive a <a href="#">monthly newsletter</a> with helpful cash flow advice.
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">Start Trial</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="grid-content-2">
+            <div class="pricing-info">
+                <h2>Pulse Plus</h2>
+                <p>Free Trial • $59/mo after</p>
+                <div class="pricing-info-p">
+                    <p>“Pulse takes the fear<br> and stress out of <br> cash flow projection and management.”</p>
+                    <div>
+                        <img src="https://signup.pulseapp.com/assets/marketing/casimir-80605d7b2690154af9c1b45ee5934fa0a533f4f5e619b752d2ef42bce39d6144.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="developer-info">
+                    <p>Casimir Loeber</p>
+
+                </div>
+                <div class="base">
+                    <p>
+                        Base-10 Design & Development Inc.
+                    </p>
+                </div>
+                <div class="need">
+
+                    <h3 class="need">Need more from Pulse?</h3>
+
+                    <p>If you have a complex business with <br> multiple financial accounts, currencies, <br> or
+                        auditing needs, you should try our <br> Pulse Unlimited plan for only $30 more <br> per month.
+                    </p>
+                    <a href="#">Switch now.</a>
+                </div>
+                <div class="cancel">
+                    <h3>Cancel any time.</h3>
+                    <p>Your first month is free, but we ask for <br> your credit card upfront to prevent an <br>
+                        interruption in service. We won't charge <br> you until the end of your 30-day free <br> trial.
+                    </p>
+                </div>
+                <div class="email">
+                    <p>We'll email you reminders before your <br> free trial is up, and we'll send you <br> invoices
+                        each month when
+                        we charge <br> your card.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Pulse is made by <a href="#"> Simple Focus</a>. We also make <a href="#">Ballpark</a>, <a
+                href="#">Sifter</a>, <a href="">Curated</a>, and <a href="#">Temper</a>.</p>
+        <p>©2019 Pulseapp.com, Inc. All Rights Reserved | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+            | <a href="#">EU Privacy</a></p>
+    </footer>
+
+</body>
+
+</html>
